@@ -1,0 +1,19 @@
+{
+	"ApiId" : "bfgbf",
+	"Name" : "Infinite ammo",
+	"Description" : "Take a guess.",
+	"Authors" : [
+		"lugia19"
+	],
+	"Contacts" : [
+		"lugia19@protonmail.com"
+	],
+	"CustomScripts": [
+	{
+			"Path": "infAmmo.nut",
+			"RunOn": "SERVER || CLIENT",
+			"ClientCallback": "infAmmoInit",
+			"ServerCallback": "infAmmoInit"
+	}
+	],
+}

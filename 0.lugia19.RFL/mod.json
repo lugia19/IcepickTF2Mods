@@ -1,0 +1,20 @@
+{
+	"ApiId" : "RFL",
+	"Name" : "RFL (Remote Functions Lib) - Do not run this without any mods that use it!",
+	"Description" : "NEEDS TO BE FIRST IN THE MOD LIST! Modders should check RFL_Callbacks.nut for info.",
+	"Authors" : [
+		"lugia19"
+	],
+	"Contacts" : [
+		"lugia19@protonmail.com"
+	],
+	"CustomScripts": [
+	{
+			"Path": "RFL_Callbacks.nut",
+			"RunOn": "SERVER || CLIENT",
+			"ClientCallback": "emptyinit",
+			"ServerCallback": "emptyinit"
+	}
+	]
+}
+ 

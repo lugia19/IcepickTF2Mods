@@ -1,0 +1,11 @@
+{
+	"ApiId" : "asfdnb",
+	"Name" : "Disable all trajectories",
+	"Description" : "Disables the trajectories of grenades etc",
+	"Authors" : [
+		"lugia19"
+	],
+	"Contacts" : [
+		"lugia19@protonmail.com"
+	]
+}

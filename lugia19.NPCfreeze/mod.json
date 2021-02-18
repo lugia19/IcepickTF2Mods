@@ -1,0 +1,19 @@
+{
+	"ApiId" : "freeze",
+	"Name" : "NPC Freeze",
+	"Description" : "Adds a toggle to freeze NPCs",
+	"Authors" : [
+		"lugia19"
+	],
+	"Contacts" : [
+		"lugia19@protonmail.com"
+	],
+	"CustomScripts": [
+	{
+			"Path": "NPC_freeze.nut",
+			"RunOn": "SERVER || CLIENT",
+			"ClientCallback": "NPCFreezeInit",
+			"ServerCallback": "NPCFreezeInit"
+	}
+	],
+}

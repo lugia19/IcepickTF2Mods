@@ -1,0 +1,19 @@
+{
+	"ApiId" : "rebootUI",
+	"Name" : "Helmet reboot effect",
+	"Description" : "Adds a toggle for the reboot effect that shows up in mission 1. Requires RFL.",
+	"Authors" : [
+		"lugia19"
+	],
+	"Contacts" : [
+		"lugia19@protonmail.com"
+	],
+	"CustomScripts": [
+	{
+			"Path": "RebootUI_init.nut",
+			"RunOn": "SERVER || CLIENT",
+			"ClientCallback": "RebootUIInit",
+			"ServerCallback": "RebootUIInit"
+	}
+	],
+}

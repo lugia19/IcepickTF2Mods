@@ -1,0 +1,11 @@
+{
+	"ApiId" : "asfdnb",
+	"Name" : "Developer level load menu",
+	"Description" : "Enables the developer level load menu, next to the datacenter indicator",
+	"Authors" : [
+		"lugia19"
+	],
+	"Contacts" : [
+		"lugia19@protonmail.com"
+	]
+}

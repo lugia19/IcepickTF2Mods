@@ -1,0 +1,18 @@
+{
+	"ApiId" : "modswitch",
+	"Name" : "Weapon/Tactical Mod Switcher",
+	"Description" : "Lets you swap mods on your active weapon and tactical",
+	"Authors" : [
+		"lugia19"
+	],
+	"Contacts" : [
+		"lugia19@protonmail.com"
+	],
+	"CustomScripts": [
+	{
+			"Path": "tactical_mod_switcher.nut",
+			"RunOn": "SERVER",
+			"ServerCallback": "ModSwitchInit"
+	}
+	],
+}
