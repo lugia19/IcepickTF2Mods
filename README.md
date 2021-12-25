@@ -9,6 +9,7 @@ Must be used alongside a mod that uses it, otherwise levels will load forever.
 If you wish to leverage it, check the RLF\_callbacks.nut file for detailed instructions.
 - EnableCheckpointMenu : Enables the developer menu that allows you to spawn at any checkpoint of your choosing in a level. The button is next to the datacenter indicator.
 - HelmetRebootUI : Adds a keybind to toggle the helmet UI effect that occurs once you get the helmet in mission 1.
+- MPExecutions : Allows you to use MP executions in singleplayer. They're randomized.
 - NPCfreeze : Allows you to freeze NPCs and assign them to different groups. When an NPC spawns, it's assigned to the currently active group. Adds four keybinds:
   - Shift through the freeze groups (default max is 10, can be changed)
   - Toggle freeze for the current group 
