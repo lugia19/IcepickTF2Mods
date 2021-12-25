@@ -1,0 +1,12 @@
+{
+	"ApiId" : "MPexec",
+	"Name" : "MP executions",
+	"Description" : "Enables all the multiplayer executions.",
+	"Authors" : [
+		"lugia19"
+	],
+	"Contacts" : [
+		"lugia19@protonmail.com"
+	],
+	"CustomScripts": [],
+}
